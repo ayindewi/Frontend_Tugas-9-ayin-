@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayin dewi </title>
+    <link rel="stylesheet" href="style_aku.css">
+
+</head>
+
+<body>
+
+    <div class="popup">
+        <div class="penampungg">
+            <div class="kiri">
+                <p id="judul"></p>
+                <p id="isi"></p>
+                <p id="promo"></p>
+            </div>
+        </div>
+        <div class="popup-content">
+            <img src="image/Coding-Adalah.jpg" alt="Iklan" class="popup_image">
+            <img src="image/close.png" alt="Close" class="popup_dismis">
+            <img src="image/order.png" alt="Shop" class="popup_shop">
+        </div>
+
+    </div>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="Email" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M2 6V20H20V22H2C.895 22 0 21.11 0 20V6H2M24 4C24 2.9 23.1 2 22 2H6C4.9 2 4 2.9 4 4V16C4 17.1 4.9 18 6 18H22C23.1 18 24 17.1 24 16V4M22 4L14 9L6 4H22M22 16H6V6L14 11L22 6V16Z" />
+        </symbol>
+        <symbol id="Facebook" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+        </symbol>
+        <symbol id="Instagram" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+        </symbol>
+        <symbol id="Whatsapp" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+        </symbol>
+        <symbol id="Like" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M22.5,10H15.75C15.13,10 14.6,10.38 14.37,10.91L12.11,16.2C12.04,16.37 12,16.56 12,16.75V18A1,1 0 0,0 13,19H18.18L17.5,22.18V22.42C17.5,22.73 17.63,23 17.83,23.22L18.62,24L23.56,19.06C23.83,18.79 24,18.41 24,18V11.5A1.5,1.5 0 0,0 22.5,10M12,6A1,1 0 0,0 11,5H5.82L6.5,1.82V1.59C6.5,1.28 6.37,1 6.17,0.79L5.38,0L0.44,4.94C0.17,5.21 0,5.59 0,6V12.5A1.5,1.5 0 0,0 1.5,14H8.25C8.87,14 9.4,13.62 9.63,13.09L11.89,7.8C11.96,7.63 12,7.44 12,7.25V6Z" />
+        </symbol>
+        <symbol id="Comment" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M9 22C8.4 22 8 21.6 8 21V18H4C2.9 18 2 17.1 2 16V4C2 2.9 2.9 2 4 2H20C21.1 2 22 2.9 22 4V16C22 17.1 21.1 18 20 18H13.9L10.2 21.7C10 21.9 9.8 22 9.5 22H9M13 11V5H11V11M13 15V13H11V15H13Z" />
+        </symbol>
+        <symbol id="Share" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M11 9V5L18 12L11 19V14.9C6 14.9 2.5 16.5 0 20C1 15 4 10 11 9M17 8V5L24 12L17 19V16L21 12L17 8Z" />
+        </symbol>
+    </svg>
+    <ul class="navigasi">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Blog</a>
+        </li>
+        <li>
+            <a href="#">Work</a>
+        </li>
+    </ul>
+    
+    <div class="penampung">
+        <div class="baris">
+            <div class="kolom-12 kolom-xl-8">
+                <h1>Ayin Dewi Safitri</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quidem velit, nostrum fugit magnam
+                    esse animi minus voluptatibus doloremque aspernatur id ab quisquam sunt aut magni repellendus at
+                    officia rem.</p>
+                <ul class="navigasi-icon  text-center">
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use xlink:href="#Email" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use xlink:href="#Facebook" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use xlink:href="#Instagram" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use xlink:href="#Whatsapp" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="kolom-12 kolom-xl-4">
+                <img class="img-bulat" src="image/2.jpg" alt="" style="width:320px; height:240px;" />
+            </div>
+        </div>
+        <hr />
+        <div class="baris">
+            <div class="kolom-12">
+                <h1>Blog</h1>
+            </div>
+            <div class="kolom-12 kolom-md-6 kolom-lg-6 kolom-xl-4">
+                <div class="kartu">
+                    <img class="gambar" src="image/2018-09-17 08.40.27 1.jpg" />
+                    <div class="penampung-kartu">
+                        <h2>Desain Web</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id, ipsa animi quam, atque sit
+                            a laboriosam nostrum quae eveniet et neque adipisci, sint aut laudantium placeat ea
+                            repudiandae molestiae!</p>
+                        <ul class="navigasi-icon text-center">
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Like" />
+                                    </svg>
+                                    Like
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Comment" />
+                                    </svg>
+                                    Comment
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Share" />
+                                    </svg>
+                                    Share
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="kolom-12 kolom-md-6 kolom-lg-6 kolom-xl-4">
+                <div class="kartu">
+                    <img class="gambar" src="image/2018-09-17 12.05.40 1.jpg" />
+                    <div class="penampung-kartu">
+                        <h2> Algoritma Pemrograman</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id, ipsa animi quam, atque sit
+                            a laboriosam nostrum quae eveniet et neque adipisci, sint aut laudantium placeat ea
+                            repudiandae molestiae!</p>
+                        <ul class="navigasi-icon text-center">
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Like" />
+                                    </svg>
+                                    Like
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Comment" />
+                                    </svg>
+                                    Comment
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Share" />
+                                    </svg>
+                                    Share
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="kolom-12 kolom-md-6 kolom-lg-6 kolom-xl-4">
+                <div class="kartu">
+                    <img class="gambar" src="image/2018-09-17 08.40.27 1.jpg" />
+                    <div class="penampung-kartu">
+                        <h2>Node Js</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id, ipsa animi quam, atque sit
+                            a laboriosam nostrum quae eveniet et neque adipisci, sint aut laudantium placeat ea
+                            repudiandae molestiae!</p>
+                        <ul class="navigasi-icon text-center">
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Like" />
+                                    </svg>
+                                    Like
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Comment" />
+                                    </svg>
+                                    Comment
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="#Share" />
+                                    </svg>
+                                    Share
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

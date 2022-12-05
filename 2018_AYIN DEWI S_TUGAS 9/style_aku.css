@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans");
+@import url('gambar.css');
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0;
+    pad: 0;
+}
+.navigasi{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.74);
+    text-align: center;
+}
+.navigasi li {
+    display: inline-block;
+}
+.navigasi li a {
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none ;
+}
+.navigasi li a:hover {
+    background-color: rgb(119, 111, 111);
+}
+.navigasi-icon {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navigasi-icon li {
+    display: inline-block;
+}
+.navigasi-icon li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+.navigasi-icon li a:hover {
+    transform: scale(1.2);
+}
+.text-center {
+    text-align: center;
+}
+.header{
+    background-image: var(--gambar-background);
+    width: 100%;
+    height:  95vh;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+}
+.title{
+    position: absolute;
+    top :20%;
+    width:100%;
+  
+}
+.title h1 {
+    color:white;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black;
+}
+@media (min-width : 360px) {
+    .header{
+        height: 35vh;
+    }
+}
+
+@media (min-width : 576px) {
+    .header{
+        height: 55vh;
+    }
+}
+
+@media (min-width : 992px) {
+    .header{
+        height: 95vh;
+    }
+}
+.penampung{
+    margin-left:auto ;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*smal (sm) ukuran android*/
+@media(min-width:576px){
+    .penampung{
+        width: 540px;
+    }
+}
+/*medium (md) ukuran tablet*/
+@media(min-width:768px){
+    .penampung{
+        width: 720x;
+    }
+}
+/*large (lg) untuk tablet yang potrait dan deskop*/
+@media(min-width:992px){
+    .penampung{
+        width: 960px;
+    }
+}
+/*extra large (xl) untuk deskop*/
+@media(min-width:1200px){
+    .penampung{
+        width: 1140px;
+    }
+}
+/*extra extra large (xxl) ukuran lebar*/
+@media(min-width:1400px){
+    .penampung{
+        width: 1320px;
+    }
+}
+.baris{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+img.gambar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kolom-1{
+    grid-column: span 1;  
+}  
+.kolom-2{
+    grid-column: span 2;  
+}  
+.kolom-3{
+    grid-column: span 3;  
+}  
+.kolom-4{
+    grid-column: span 4;
+      
+}
+.kolom-5{
+    grid-column: span 5;  
+}  
+.kolom-6{
+    grid-column: span 6;  
+}  
+.kolom-7{
+    grid-column: span 7;  
+}  
+.kolom-8{
+    grid-column: span 8;  
+}  
+.kolom-9{
+    grid-column: span 9;  
+}  
+.kolom-10{
+    grid-column: span 10;  
+}  
+.kolom-11{
+    grid-column: span 11;  
+}  
+.kolom-12{
+    grid-column: span 12;  
+}  
+/*kolom medium (kolom-md)*/
+@media(min-width:768px){
+    .kolom-md-1{
+        grid-column: span 1 ;
+    }
+    .kolom-md-2{
+        grid-column: span 2 ;
+    }
+    .kolom-md-3{
+        grid-column: span 3;
+    }
+    .kolom-md-4{
+        grid-column: span 4 ;
+    }
+    .kolom-md-5{
+        grid-column: span 5 ;
+    }
+    .kolom-md-6{
+        grid-column: span 6 ;
+    }
+    .kolom-md-7{
+        grid-column: span 7 ;
+    }
+    .kolom-md-8{
+        grid-column: span 8 ;
+    }
+    .kolom-md-9{
+        grid-column: span 9 ;
+    }
+    .kolom-md-10{
+        grid-column: span 10 ;
+    }
+    .kolom-md-11{
+        grid-column: span 11 ;
+    }
+    .kolom-md-12{
+        grid-column: span 12 ;
+    }
+}
+/*kolom large (kolom-lg)*/
+@media(min-width:922px){
+    .kolom-lg-1{
+        grid-column: span 1 ;
+    }
+    .kolom-lg-2{
+        grid-column: span 2 ;
+    }
+    .kolom-lg-3{
+        grid-column: span 3;
+    }
+    .kolom-lg-4{
+        grid-column: span 4 ;
+    }
+    .kolom-lg-5{
+        grid-column: span 5 ;
+    }
+    .kolom-lg-6{
+        grid-column: span 6 ;
+    }
+    .kolom-lg-7{
+        grid-column: span 7 ;
+    }
+    .kolom-lg-8{
+        grid-column: span 8 ;
+    }
+    .kolom-lg-9{
+        grid-column: span 9 ;
+    }
+    .kolom-lg-10{
+        grid-column: span 10 ;
+    }
+    .kolom-lg-11{
+        grid-column: span 11 ;
+    }
+    .kolom-lg-12{
+        grid-column: span 12 ;
+    }
+}
+/*kolom extra large (kolom-xl)*/
+@media(min-width:1200px){
+    .kolom-xl-1{
+        grid-column: span 1 ;
+    }
+    .kolom-xl-2{
+        grid-column: span 2 ;
+    } 
+    .kolom-xl-3{
+        grid-column: span 3;
+    }
+    .kolom-xl-4{
+        grid-column: span 4 ;
+    }
+    .kolom-xl-5{
+        grid-column: span 5 ;
+    }
+    .kolom-xl-6{
+        grid-column: span 6 ;
+    }
+    .kolom-xl-7{
+        grid-column: span 7 ;
+    }
+    .kolom-xl-8{
+        grid-column: span 8 ;
+    }
+    .kolom-xl-9{
+        grid-column: span 9 ;
+    }
+    .kolom-xl-10{
+        grid-column: span 10 ;
+    }
+    .kolom-xl-11{
+        grid-column: span 11 ;
+    }
+    .kolom-xl-12{
+        grid-column: span 12 ;
+    }
+}
+/*kolom extra extra large (kolom-xxl)*/
+@media(min-width:1400px){
+    .kolom-xxl-1{
+        grid-column: span 1 ;
+    }
+    .kolom-xxl-2{
+        grid-column: span 2 ;
+    } 
+    .kolom-xxl-3{
+        grid-column: span 3;
+    }
+    .kolom-xxl-4{
+        grid-column: span 4 ;
+    }
+    .kolom-xxl-5{
+        grid-column: span 5 ;
+    }
+    .kolom-xxl-6{
+        grid-column: span 6 ;
+    }
+    .kolom-xxl-7{
+        grid-column: span 7 ;
+    }
+    .kolom-xxl-8{
+        grid-column: span 8 ;
+    }
+    .kolom-xxl-9{
+        grid-column: span 9 ;
+    }
+    .kolom-xxl-10{
+        grid-column: span 10 ;
+    }
+    .kolom-xxl-11{
+        grid-column: span 11 ;
+    }
+    .kolom-xxl-12{
+        grid-column: span 12 ;
+    }
+}
+/*===========KOMPONEN==========*/
+.img-bulat{
+    border-radius: 50%;
+   border: 5px solid rgb(145, 214, 33);
+    box-shadow: 0 4px 8px 0 rgba(0,0,1);
+}
+.kartu{
+    box-shadow: 0 4px 8px 0 rgb(0,0,2);
+    transition: 0.3s;
+}
+.penampung-kartu{
+    padding: 2px 16px;
+}
+.kartu img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* iklan */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    opacity: 0;
+    transition: all .2s ease-in;
+}
+
+.popup-content {
+    width: 300px;
+    text-align: center;
+    position: relative;
+    margin: 10vh auto;
+
+}
+
+.popup_image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.popup_dismis {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+}
+
+.popup_shop {
+    width: 150px;
+}
+
+.popup--show {
+    opacity: 1;
+}
+
+.popup--close {
+    opacity: 0;
+    transition: all .2s ease-out;
+}
+
+.penampungg {
+    width: 300px;
+    text-align: center;
+    position: relative;
+    margin: 20vh auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.kiri {
+    font-size: 15px;
+}
+
+.penampungg .kiri p {
+    font-family: 'Bangers', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   
+}
